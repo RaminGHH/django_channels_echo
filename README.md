@@ -32,9 +32,9 @@ python manage.py runserver
 # In other command line
 python -m websockets ws://127.0.0.1:8000/ws/echo/
 
-# input
+# input (write)
 > {"message": "hello"}
 
-# output
+# output 
 < {"echo": "HELLO"}
 ```
