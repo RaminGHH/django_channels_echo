@@ -11,7 +11,7 @@ source venv_channel_lab/bin/activate   # Windows: venv_channel_lab\Scripts\activ
 pip install -r requirements.txt
 
 
-# settings
+# settings.py
 INSTALLED_APPS = [
     "daphne",
     "django.contrib.admin",
